@@ -1,7 +1,5 @@
 #!/usr/bin/python3
-"""
-Contains class BaseModel
-"""
+""" Contains BaseModel class """
 
 from datetime import datetime
 from models import storage
@@ -11,7 +9,7 @@ time = "%Y-%m-%dT%H:%M:%S.%f"
 
 
 class BaseModel:
-    """The BaseModel class from which future classes will be derived"""
+    """The BaseModel class"""
 
     def __init__(self, *args, **kwargs):
         """Initialization of a Base instance.
