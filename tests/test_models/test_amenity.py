@@ -1,7 +1,5 @@
 #!/usr/bin/python3
-"""
-Contains the TestAmenityDocs classes
-"""
+""" Contains the TestAmenityDocs classes """
 
 from datetime import datetime
 import inspect
@@ -13,7 +11,7 @@ Amenity = amenity.Amenity
 
 
 class TestAmenityDocs(unittest.TestCase):
-    """Tests to check the documentation and style of Amenity class"""
+    """ Tests to check the documentation and style of Amenity class """
     @classmethod
     def setUpClass(cls):
         """Set up for the doc tests"""
