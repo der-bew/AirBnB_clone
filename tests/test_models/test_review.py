@@ -1,7 +1,5 @@
 #!/usr/bin/python3
-"""
-Contains the TestReviewDocs classes
-"""
+""" Unit test module for test_review.py file """
 
 from datetime import datetime
 import inspect
@@ -13,7 +11,7 @@ Review = review.Review
 
 
 class TestReviewDocs(unittest.TestCase):
-    """Tests to check the documentation and style of Review class"""
+    """ A unit tests to check the documentation and style of Review class """
     @classmethod
     def setUpClass(cls):
         """Set up for the doc tests"""
