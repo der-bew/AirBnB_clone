@@ -1,10 +1,10 @@
-#!/usr/bin/python
-""" holds class User"""
+#!/usr/bin/python3
+""" module for a User class"""
 from models.base_model import BaseModel
 
 
 class User(BaseModel):
-    """Representation of a user """
+    """A class representation of a user """
     email = ""
     password = ""
     first_name = ""
