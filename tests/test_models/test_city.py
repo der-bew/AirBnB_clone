@@ -1,5 +1,5 @@
 #!/usr/bin/python3
-""" Contains the TestCityDocs classes ""
+""" Contains the TestCityDocs classes """
 
 from datetime import datetime
 import inspect
@@ -97,7 +97,8 @@ class TestCity(unittest.TestCase):
         self.assertEqual(new_d["updated_at"], c.updated_at.strftime(t_format))
 
     def test_str(self):
-        """ test that the str method has the correct output """
+        """ Test that the strmethod has the correct output """
+
         city = City()
         string = "[City] ({}) {}".format(city.id, city.__dict__)
         self.assertEqual(string, str(city))
