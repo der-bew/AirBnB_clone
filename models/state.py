@@ -1,10 +1,10 @@
-#!/usr/bin/python
-""" holds class State"""
+#!/usr/bin/python3
+""" module for State class"""
 from models.base_model import BaseModel
 
 
 class State(BaseModel):
-    """Representation of state """
+    """A class representation of state """
     name = ""
 
     def __init__(self, *args, **kwargs):
